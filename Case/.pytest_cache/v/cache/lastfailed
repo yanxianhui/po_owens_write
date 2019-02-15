@@ -1,3 +1,20 @@
 {
+  "erp_process.py::Erp_login::test_new_erp_case_a": true,
+  "erp_process.py::Erp_login::test_new_erp_case_b": true,
+  "erp_process.py::Erp_login::test_new_erp_case_c": true,
+  "erp_process.py::Erp_login::test_new_erp_case_d": true,
+  "erp_process.py::Erp_login::test_new_erp_case_e": true,
+  "erp_process.py::Erp_login::test_new_erp_case_f": true,
+  "erp_process.py::Erp_login::test_new_erp_case_h": true,
+  "erp_process.py::Erp_login::test_new_erp_case_j": true,
+  "erp_process.py::Erp_login::test_new_erp_case_y": true,
+  "erp_process.py::Erp_login::test_new_erp_case_yes": true,
+  "test_login_case.py::Login_test::test_login_ausername_error": true,
+  "test_login_case.py::Login_test::test_login_busername_error": true,
+  "test_login_case.py::Login_test::test_login_cusername_error": true,
+  "test_login_case.py::Login_test::test_login_dusername_error": true,
+  "test_login_case.py::Login_test::test_login_eusername_error": true,
+  "test_login_case.py::Login_test::test_login_fusername_error": true,
+  "test_login_case.py::Login_test::test_login_success": true,
   "test_login_case.py::Login_test::test_login_username_error": true
 }

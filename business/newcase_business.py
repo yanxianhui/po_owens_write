@@ -1,8 +1,10 @@
 from Handle.newcase_handle import Newcase_handle
+from Handle.add_received_handle import received_handle
 import time
 class Newcase_business():
     def __init__(self,driver):
         self.newcase_h=Newcase_handle(driver)
+        self.add_rexeived=received_handle(driver)
 
 
     def Newcase_base(self,patientname):
@@ -61,5 +63,7 @@ class Newcase_business():
             return True
         else:
             return False
+    def add_new_received(self):
+        self.add_rexeived.click_add_received()
 
 

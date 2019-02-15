@@ -10,7 +10,10 @@ class Login_test(unittest.TestCase):
     #     driver.get('http://www.clearbos.cn/test/#/')
     @classmethod
     def setUpClass(cls):
-        cls.driver = webdriver.Chrome()
+        #cls.driver = webdriver.Chrome()
+        option = webdriver.ChromeOptions()
+        option.add_argument("headless")
+        cls.driver=webdriver.Chrome(chrome_options=option)
         cls.driver.get('http://www.clearbos.cn/test/#/')
         cls.driver.maximize_window()
 
@@ -73,3 +76,5 @@ class Login_test(unittest.TestCase):
 if __name__=='__main__':
     suite = unittest.TestSuite()
     suite.addTest(Login_test('test_login_success'))
+    suite.addTest(Login_test('test_login_fusername_error'))
+    suite.addTest(Login_test('test_login_eusername_error'))

@@ -1,3 +1,4 @@
+#coding=utf-8
 import configparser
 
 class Readini():
@@ -14,15 +15,21 @@ class Readini():
 
     def load_ini(self):
         cf=configparser.ConfigParser()
-        cf.read(self.file_name)
+        cf.read(self.file_name,encoding='utf-8')
         return cf
 
 
     def get_value(self,key):
         value=self.data.get(self.note,key)
         return value
-
+    def write_canshu(self,canshu_name,aaa):
+        config=configparser.ConfigParser()
+        config['DEFAULT'][canshu_name] = aaa
+        with open('D:\po_owens_write\config\example.ini','w') as coo:
+            config.write(coo)
 
 if __name__ == '__main__':
-    ope=Readini('D:\po_owens_write\config\\Newcase.ini','newcase')
-    print(ope.get_value('Doctoruser'))
+    ope=Readini('D:\po_owens_write\config\example.ini','DEFAULT')
+    print(ope.get_value('caseno'))
+    # ope=Readini('D:\po_owens_write\config\example.ini','DEFAULT')
+    # ope.write_canshu('nann','nihao')
