@@ -19,6 +19,8 @@ from Handle.erp_Dataquality_handle import erp_Dataquality_handle
 from Handle.erp_shuzi_model_handle import erp_shuzi_modle_handle
 from Handle.erp_moni_design_handel import erp_moni_design_handle
 from Handle.erp_design_quality_handle import erp_design_quality_handle
+from Handle.erp_chufang_guanli_handle import erp_chufangguanli_handle
+from base.basemethod import base_method
 from unitl.request import erp_requests
 import time
 from unitl.read_ini import Readini
@@ -26,8 +28,9 @@ class erp_login_business():
         def __init__(self,driver):
             self.case_num=Readini('D:\po_owens_write\config\example.ini','DEFAULT').get_value('caseno')
             #self.case_num='201901170018'
-            self.liuzhuanghao='50'
+            self.liuzhuanghao='60'
             self.r=erp_requests()
+            self.base=base_method(driver)
             self.h_r=received_handle(driver)
             self.h_l=erp_login_handle(driver)
             self.h_new=new_bussiness(driver)
@@ -49,6 +52,7 @@ class erp_login_business():
             self.h_jianmo=erp_shuzi_modle_handle(driver)
             self.h_paiya=erp_moni_design_handle(driver)
             self.h_shejizhijian=erp_design_quality_handle(driver)
+            self.h_chakangenduo=erp_chufangguanli_handle(driver)
         #登录erp
         def erp_login(self,account,password):
             self.h_l.send_erp_login_account(account)
@@ -136,8 +140,6 @@ class erp_login_business():
         #模型扫描
         def new_erp_sm_stl(self):
             time.sleep(2)
-            # self.h_l.click_liucheng()
-            # time.sleep(2)
             self.h_DH.click_moxingsaomiao_button()
             time.sleep(2)
             self.h_search.send_search_word(self.case_num)
@@ -239,10 +241,48 @@ class erp_login_business():
                 "PrescriptionContent":"排齐"
             }
             print(self.r.tianjia_chufang(datat))
-            if  self.r.tianjia_chufang(datat)==200 or '200':
+            #新增
+            time.sleep(1)
+            self.h_genjin.click_sheji_genjin_chufang_button()
+            time.sleep(1)
+            #处方管理界面
+            self.base.get_dangqian_chaungk_handle()
+            print('处方管理',self.base.get_dangqian_chaungk_handle())
+            time.sleep(1)
+            url_chufangguanli=self.base.get_url()
+            print(self.base.get_url())
+            time.sleep(1)
+            self.h_chakangenduo.clcik_sheji_genjin_chakangenduo_button()
+            time.sleep(1)
+            #临床诊断界面
+            self.base.get_dangqian_chaungk_handle()
+            print('临床诊断界面',self.base.get_dangqian_chaungk_handle())
+            time.sleep(1)
+            url_chakangenduo=self.base.get_url()
+            time.sleep(1)
+            #返回处方管理界面
+            self.base.get_changkou_canshu_handle(2)
+            print('处方管理',self.base.get_changkou_canshu_handle(2))
+            time.sleep(1)
+            #点击临床说明
+            self.h_chakangenduo.click_chufangguanli_lcshuoming_button()
+            time.sleep(1)
+            #当前界面窗口
+            self.base.get_dangqian_chaungk_handle()
+            #获取临床url
+            url_lc_shuoming=self.base.get_url()
+            time.sleep(1)
+            self.base.get_changkou_canshu_handle(0)
+            time.sleep(1)
+            if 'http://www.clearbos.cn:81/new/#/prescriptionManagement?' in url_chufangguanli and  'http://106.14.117.240:8080/Clearsite/' in \
+                    url_chakangenduo and  'http://www.clearbos.cn:81/new//clinicalApp.html?' in url_lc_shuoming:
                 return True
             else:
                 return False
+            # if  self.r.tianjia_chufang(datat)==200 or '200':
+            #     return True
+            # else:
+            #     return False
 
          #数字建模
         def Digital_modeling(self):
@@ -331,8 +371,6 @@ class erp_login_business():
         #下生产订单
         def Place_production_orders(self):
             time.sleep(1)
-            # self.h_l.click_liucheng()
-            # time.sleep(1)
             self.h_DH.click_dingdanguanli_button()
             time.sleep(2)
             data = {

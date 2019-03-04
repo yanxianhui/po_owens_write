@@ -2,10 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a43495e3-d17a-4f41-8a42-ed230ae5e89c" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Handle/erp_chufang_guanli_handle.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Page/erp_chufang_guanli_page.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/base/basemethod.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitl/send_email.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Case/.pytest_cache/v/cache/nodeids" afterPath="$PROJECT_DIR$/Case/.pytest_cache/v/cache/nodeids" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Case/.pytest_cache/v/cache/lastfailed" afterPath="$PROJECT_DIR$/Case/.pytest_cache/v/cache/lastfailed" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Case/mew_case.py" afterPath="$PROJECT_DIR$/Case/mew_case.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Case/test_untiltest.py" afterPath="$PROJECT_DIR$/Case/test_untiltest.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Handle/erp_sheji_genjin_handle.py" afterPath="$PROJECT_DIR$/Handle/erp_sheji_genjin_handle.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Page/erp_sheji_genjin_page.py" afterPath="$PROJECT_DIR$/Page/erp_sheji_genjin_page.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base/findelment.py" afterPath="$PROJECT_DIR$/base/findelment.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/business/erp_process_business.py" afterPath="$PROJECT_DIR$/business/erp_process_business.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/business/new_doctor_case_business.py" afterPath="$PROJECT_DIR$/business/new_doctor_case_business.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/LocalElement.ini" afterPath="$PROJECT_DIR$/config/LocalElement.ini" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/example.ini" afterPath="$PROJECT_DIR$/config/example.ini" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/first_case.html" afterPath="$PROJECT_DIR$/report/first_case.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/unitl/Connectdb.py" afterPath="$PROJECT_DIR$/unitl/Connectdb.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/unitl/request.py" afterPath="$PROJECT_DIR$/unitl/request.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,8 +33,8 @@
       <file leaf-file-name="LocalElement.ini" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/LocalElement.ini">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="151" column="64" lean-forward="true" selection-start-line="151" selection-start-column="64" selection-end-line="151" selection-end-column="64" />
+            <state relative-caret-position="229">
+              <caret line="178" column="57" lean-forward="true" selection-start-line="178" selection-start-column="57" selection-end-line="178" selection-end-column="57" />
               <folding />
             </state>
           </provider>
@@ -30,8 +43,8 @@
       <file leaf-file-name="findelment.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/base/findelment.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="28" lean-forward="false" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="28" />
+            <state relative-caret-position="465">
+              <caret line="69" column="24" lean-forward="true" selection-start-line="69" selection-start-column="24" selection-end-line="69" selection-end-column="24" />
               <folding>
                 <element signature="e#0#34#0" expanded="true" />
               </folding>
@@ -39,11 +52,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="erp_process.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Case/erp_process.py">
+      <file leaf-file-name="erp_chufang_guanli_handle.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Handle/erp_chufang_guanli_handle.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="28" column="23" lean-forward="true" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+            <state relative-caret-position="228">
+              <caret line="12" column="52" lean-forward="true" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="erp_process_business.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/business/erp_process_business.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="536">
+              <caret line="266" column="19" lean-forward="true" selection-start-line="266" selection-start-column="19" selection-end-line="266" selection-end-column="19" />
+              <folding>
+                <element signature="e#0#54#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="basemethod.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/base/basemethod.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="20" lean-forward="true" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -52,49 +87,11 @@
       <file leaf-file-name="test_untiltest.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Case/test_untiltest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Connectdb.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/unitl/Connectdb.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="38" lean-forward="false" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="first_case.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/report/first_case.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="erp_process_business.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/business/erp_process_business.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-15">
-              <caret line="190" column="49" lean-forward="false" selection-start-line="190" selection-start-column="49" selection-end-line="190" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mew_case.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Case/mew_case.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
-              <caret line="62" column="0" lean-forward="true" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="399">
+              <caret line="21" column="12" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+              <folding>
+                <element signature="e#0#47#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -102,11 +99,9 @@
       <file leaf-file-name="request.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/unitl/request.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="23" column="49" lean-forward="true" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="304">
+              <caret line="19" column="34" lean-forward="true" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -120,25 +115,29 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>chengxing_wancheng</find>
+      <find>upload_img_one</find>
+      <find>new</find>
+      <find>canpin_tape</find>
+      <find>cankan</find>
+      <find>kaudidanhao</find>
+      <find>cha</find>
+      <find>cankangenduo</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Page/erp_fahuo_confirm_page.py" />
-        <option value="$PROJECT_DIR$/Handle/erp_fahuo_confirm_handle.py" />
-        <option value="$PROJECT_DIR$/Page/erp_fahuo_list_page.py" />
-        <option value="$PROJECT_DIR$/Handle/erp_fahuo_list_handle.py" />
-        <option value="$PROJECT_DIR$/Page/erp_liucheng_page.py" />
-        <option value="$PROJECT_DIR$/Handle/erp_liucheng_handle.py" />
-        <option value="$PROJECT_DIR$/Page/erp_model_print_page.py" />
         <option value="$PROJECT_DIR$/Handle/erp_model_print_handle.py" />
         <option value="E:/site/web.Master" />
         <option value="$PROJECT_DIR$/Page/demand_guanli_page.py" />
         <option value="$PROJECT_DIR$/Handle/erp_demand_guanli_handle.py" />
         <option value="$PROJECT_DIR$/report/os_ope.py" />
-        <option value="$PROJECT_DIR$/Case/test_untiltest.py" />
         <option value="$USER_HOME$/Desktop/TEST_/OldData2NewData3.py" />
         <option value="$PROJECT_DIR$/report/request.py" />
         <option value="$PROJECT_DIR$/Page/erp_moxing_sm_page.py" />
@@ -148,7 +147,6 @@
         <option value="$PROJECT_DIR$/Page/erp_orderguanli_page.py" />
         <option value="$PROJECT_DIR$/Handle/erp_orderguanli_handle.py" />
         <option value="$PROJECT_DIR$/Page/new_doctor_page.py" />
-        <option value="$PROJECT_DIR$/Handle/new_doctor_handle.py" />
         <option value="$PROJECT_DIR$/unitl/configparser.py" />
         <option value="$PROJECT_DIR$/unitl/configpar.py" />
         <option value="$PROJECT_DIR$/config/copyini.ini" />
@@ -162,27 +160,36 @@
         <option value="$PROJECT_DIR$/Handle/erp_moni_design_handel.py" />
         <option value="$PROJECT_DIR$/Page/erp_design_quality_page.py" />
         <option value="$PROJECT_DIR$/Handle/erp_design_quality_handle.py" />
-        <option value="$PROJECT_DIR$/Page/erp_sheji_genjin_page.py" />
-        <option value="$PROJECT_DIR$/Handle/erp_sheji_genjin_handle.py" />
-        <option value="$PROJECT_DIR$/business/erp_process_business.py" />
         <option value="$PROJECT_DIR$/Case/erp_process.py" />
-        <option value="$PROJECT_DIR$/business/new_doctor_case_business.py" />
         <option value="$PROJECT_DIR$/Case/test_login_case.py" />
         <option value="$PROJECT_DIR$/log/user_log.py" />
-        <option value="$PROJECT_DIR$/base/findelment.py" />
         <option value="$PROJECT_DIR$/log/logs/2019-01-29.log" />
-        <option value="$PROJECT_DIR$/Case/mew_case.py" />
-        <option value="$PROJECT_DIR$/config/LocalElement.ini" />
-        <option value="$PROJECT_DIR$/unitl/request.py" />
         <option value="$PROJECT_DIR$/unitl/sqlsever.py" />
         <option value="$PROJECT_DIR$/unitl/shuju.py" />
         <option value="$PROJECT_DIR$/unitl/shujukulj.py" />
+        <option value="$PROJECT_DIR$/unitl/Connectdb.py" />
+        <option value="$PROJECT_DIR$/unitl/send_email.py" />
+        <option value="$PROJECT_DIR$/Case/test_untiltest.py" />
+        <option value="$PROJECT_DIR$/Case/mew_case.py" />
+        <option value="$PROJECT_DIR$/Handle/new_doctor_handle.py" />
+        <option value="$PROJECT_DIR$/business/new_doctor_case_business.py" />
+        <option value="$PROJECT_DIR$/Handle/erp_sheji_genjin_handle.py" />
+        <option value="$PROJECT_DIR$/Page/erp_sheji_genjin_page.py" />
+        <option value="$PROJECT_DIR$/config/LocalElement.ini" />
+        <option value="$PROJECT_DIR$/Page/erp_chufang_guanli_page.py" />
+        <option value="$PROJECT_DIR$/Handle/erp_chufang_guanli_handle.py" />
+        <option value="$PROJECT_DIR$/log/logs/2019-03-01.log" />
+        <option value="$PROJECT_DIR$/base/baswmethod.py" />
+        <option value="$PROJECT_DIR$/base/basemethod.py" />
+        <option value="$PROJECT_DIR$/base/findelment.py" />
+        <option value="$PROJECT_DIR$/business/erp_process_business.py" />
+        <option value="$PROJECT_DIR$/unitl/request.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="416" />
-    <option name="y" value="82" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="256" />
+    <option name="y" value="11" />
     <option name="width" value="1182" />
     <option name="height" value="928" />
   </component>
@@ -233,7 +240,23 @@
             <path>
               <item name="po_owens_write" type="b2602c69:ProjectViewProjectNode" />
               <item name="po_owens_write" type="462c0819:PsiDirectoryNode" />
+              <item name="Handle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="po_owens_write" type="b2602c69:ProjectViewProjectNode" />
+              <item name="po_owens_write" type="462c0819:PsiDirectoryNode" />
               <item name="log" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="po_owens_write" type="b2602c69:ProjectViewProjectNode" />
+              <item name="po_owens_write" type="462c0819:PsiDirectoryNode" />
+              <item name="log" type="462c0819:PsiDirectoryNode" />
+              <item name="logs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="po_owens_write" type="b2602c69:ProjectViewProjectNode" />
+              <item name="po_owens_write" type="462c0819:PsiDirectoryNode" />
+              <item name="Page" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="po_owens_write" type="b2602c69:ProjectViewProjectNode" />
@@ -244,15 +267,6 @@
               <item name="po_owens_write" type="b2602c69:ProjectViewProjectNode" />
               <item name="po_owens_write" type="462c0819:PsiDirectoryNode" />
               <item name="unitl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="po_owens_write" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="po_owens_write" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.7.0 (C:\Users\yanxianhuiclearbos\AppData\Local\Programs\Python\Python37-32\python.exe) &gt;" type="70bed36:NamedLibraryElementNode" />
             </path>
           </expand>
           <select />
@@ -284,8 +298,59 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.shujukulj">
-    <configuration name="py.test for erp_process.Erp_login" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.test_untiltest">
+    <configuration name="Connectdb" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/unitl" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="po_owens_write" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/unitl/Connectdb.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="findelment" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/base" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="po_owens_write" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/base/findelment.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="new_doctor_case_business" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/business" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="po_owens_write" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/business/new_doctor_case_business.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="py.test in mew_case.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -297,59 +362,8 @@
       <module name="po_owens_write" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;erp_process.Erp_login&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-    </configuration>
-    <configuration name="shuju" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/unitl" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="po_owens_write" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/unitl/shuju.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="shujukulj" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/unitl" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="po_owens_write" />
-      <option name="SCRIPT_NAME" value="D:\po_owens_write\unitl\Connectdb.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="sqlsever" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/unitl" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="po_owens_write" />
-      <option name="SCRIPT_NAME" value="D:\po_owens_write\unitl\Connectdb.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Case/mew_case.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <configuration name="test_untiltest" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -370,18 +384,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.test_untiltest" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.py.test for erp_process.Erp_login" />
-      <item index="2" class="java.lang.String" itemvalue="Python.sqlsever" />
-      <item index="3" class="java.lang.String" itemvalue="Python.shujukulj" />
-      <item index="4" class="java.lang.String" itemvalue="Python.shuju" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in mew_case.py" />
+      <item index="2" class="java.lang.String" itemvalue="Python.new_doctor_case_business" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Connectdb" />
+      <item index="4" class="java.lang.String" itemvalue="Python.findelment" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.shujukulj" />
-        <item index="1" class="java.lang.String" itemvalue="Python.shuju" />
-        <item index="2" class="java.lang.String" itemvalue="Python.sqlsever" />
-        <item index="3" class="java.lang.String" itemvalue="Python.test_untiltest" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.py.test for erp_process.Erp_login" />
+        <item index="0" class="java.lang.String" itemvalue="Python.test_untiltest" />
+        <item index="1" class="java.lang.String" itemvalue="Python.findelment" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Connectdb" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in mew_case.py" />
+        <item index="4" class="java.lang.String" itemvalue="Python.new_doctor_case_business" />
       </list>
     </recent_temporary>
   </component>
@@ -402,51 +416,51 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="py_test_for_erp_process_Erp_login - 2019.02.19 at 14h 48m 25s.xml">
-      <configuration name="py.test for erp_process.Erp_login" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_for_test_login_case_Login_test_test_login_dusername_error - 2019.01.28 at 13h 11m 35s.xml">
-      <configuration name="py.test for test_login_case.Login_test.test_login_dusername_error" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_for_test_login_case_Login_test_test_login_eusername_error - 2019.01.28 at 11h 52m 26s.xml">
-      <configuration name="py.test for test_login_case.Login_test.test_login_eusername_error" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_erp_process_py - 2019.02.19 at 14h 42m 41s.xml">
-      <configuration name="py.test in erp_process.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_mew_case_py - 2019.01.29 at 09h 19m 40s.xml">
+    <history-entry file="py_test_in_mew_case_py - 2019.02.22 at 09h 58m 39s.xml">
       <configuration name="py.test in mew_case.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_mew_case_py - 2019.01.30 at 09h 42m 02s.xml">
+    <history-entry file="py_test_in_mew_case_py - 2019.02.22 at 10h 00m 16s.xml">
       <configuration name="py.test in mew_case.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_mew_case_py - 2019.02.18 at 10h 00m 54s.xml">
+    <history-entry file="py_test_in_mew_case_py - 2019.02.22 at 10h 12m 42s.xml">
       <configuration name="py.test in mew_case.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_mew_case_py - 2019.02.18 at 11h 33m 51s.xml">
+    <history-entry file="py_test_in_mew_case_py - 2019.02.22 at 10h 20m 29s.xml">
       <configuration name="py.test in mew_case.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_mew_case_py - 2019.02.18 at 11h 39m 41s.xml">
+    <history-entry file="py_test_in_mew_case_py - 2019.02.22 at 13h 31m 11s.xml">
       <configuration name="py.test in mew_case.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_login_case_py - 2019.01.28 at 11h 54m 31s.xml">
-      <configuration name="py.test in test_login_case.py" configurationId="tests" />
+    <history-entry file="py_test_in_mew_case_py - 2019.02.22 at 13h 33m 04s.xml">
+      <configuration name="py.test in mew_case.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_mew_case_py - 2019.02.22 at 13h 34m 54s.xml">
+      <configuration name="py.test in mew_case.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_mew_case_py - 2019.02.22 at 13h 38m 21s.xml">
+      <configuration name="py.test in mew_case.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_mew_case_py - 2019.02.22 at 13h 39m 31s.xml">
+      <configuration name="py.test in mew_case.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_mew_case_py - 2019.02.22 at 13h 40m 06s.xml">
+      <configuration name="py.test in mew_case.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="416" y="82" width="1182" height="928" extended-state="1" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23885918" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14285715" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26448363" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19088937" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39870968" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3979849" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976827" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -494,126 +508,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Page/newcase_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1370">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/TEST_/OldData2NewData3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="29" column="22" lean-forward="true" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Handle/erp_moxing_sm_handle.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="38" lean-forward="true" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Handle/erp_Dataquality_handle.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="50" lean-forward="true" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Handle/erp_orderguanli_handle.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="38" lean-forward="true" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/unitl/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/unitl/HTMLTestRunner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Page/erp_fahuo_list_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Page/erp_moxing_sm_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14">
-          <caret line="8" column="48" lean-forward="true" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Page/erp_fahuo_confirm_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="41" lean-forward="false" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Page/erp_Dataquality_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="50" lean-forward="true" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Page/erp_login_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Page/erp_model_print_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Page/erp_orderguanli_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/unitl/configparser.py" />
-    <entry file="file://$PROJECT_DIR$/Handle/new_doctor_handle.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="97" column="39" lean-forward="true" selection-start-line="97" selection-start-column="39" selection-end-line="97" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Page/new_doctor_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="85" column="46" lean-forward="false" selection-start-line="85" selection-start-column="46" selection-end-line="85" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Page/erp_tishi_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="27" column="46" lean-forward="false" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Page/erp_moni_design_page.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -656,27 +550,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Handle/erp_sheji_genjin_handle.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="59" lean-forward="false" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Page/erp_sheji_genjin_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Handle/erp_tishi_handle.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="17" column="44" lean-forward="true" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Case/test_login_case.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -702,13 +575,6 @@
       <provider selected="true" editor-type-id="LogFileEditorProvider">
         <state relative-caret-position="180">
           <caret line="87" column="86" lean-forward="false" selection-start-line="87" selection-start-column="86" selection-end-line="87" selection-end-column="156" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/Newcase.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -740,13 +606,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/example.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/unitl/configpar.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -755,26 +614,146 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/unitl/shuju.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/unitl/read_ini.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="590">
-          <caret line="32" column="34" lean-forward="true" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
+        <state relative-caret-position="646">
+          <caret line="34" column="38" lean-forward="true" selection-start-line="32" selection-start-column="34" selection-end-line="34" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/business/new_doctor_case_business.py">
+    <entry file="file://$PROJECT_DIR$/Page/demand_guanli_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="137" column="34" lean-forward="false" selection-start-line="137" selection-start-column="22" selection-end-line="137" selection-end-column="34" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Case/mew_case.py">
+    <entry file="file://$PROJECT_DIR$/Page/add_received_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="62" column="0" lean-forward="true" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+        <state relative-caret-position="114">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Handle/erp_Dataquality_handle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Page/erp_tishi_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="27" column="46" lean-forward="false" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Handle/add_received_handle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#48#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unitl/send_email.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="92" column="4" lean-forward="false" selection-start-line="92" selection-start-column="4" selection-end-line="92" selection-end-column="12" />
+          <folding>
+            <element signature="e#39#48#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/logs/2019-02-21.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="324">
+          <caret line="411" column="95" lean-forward="false" selection-start-line="411" selection-start-column="77" selection-end-line="411" selection-end-column="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Handle/erp_tishi_handle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="17" selection-start-column="44" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Case/newcase_case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="54" column="50" lean-forward="true" selection-start-line="54" selection-start-column="50" selection-end-line="54" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#30#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/business/login_business.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-114">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#44#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/example.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/Newcase.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/logs/2019-02-22.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="-10317">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Page/new_doctor_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1273">
+          <caret line="85" column="46" lean-forward="false" selection-start-line="85" selection-start-column="46" selection-end-line="85" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Handle/new_doctor_handle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -787,36 +766,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/LocalElement.ini">
+    <entry file="file://$PROJECT_DIR$/log/logs/2019-02-28.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="228">
+          <caret line="404" column="83" lean-forward="false" selection-start-line="404" selection-start-column="83" selection-end-line="404" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/business/new_doctor_case_business.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="151" column="64" lean-forward="true" selection-start-line="151" selection-start-column="64" selection-end-line="151" selection-end-column="64" />
+        <state relative-caret-position="323">
+          <caret line="87" column="21" lean-forward="true" selection-start-line="87" selection-start-column="21" selection-end-line="87" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/unitl/request.py">
+    <entry file="file://$PROJECT_DIR$/unitl/Connectdb.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="23" column="49" lean-forward="true" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/business/erp_process_business.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-15">
-          <caret line="190" column="49" lean-forward="false" selection-start-line="190" selection-start-column="49" selection-end-line="190" selection-end-column="49" />
+        <state relative-caret-position="456">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Case/erp_process.py">
+    <entry file="file://$PROJECT_DIR$/Handle/erp_fahuo_list_handle.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="28" column="23" lean-forward="true" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Case/mew_case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -829,37 +813,104 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Case/erp_process.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="67" column="27" lean-forward="false" selection-start-line="67" selection-start-column="8" selection-end-line="67" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Page/erp_sheji_genjin_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="3" lean-forward="false" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Handle/erp_sheji_genjin_handle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Page/erp_chufang_guanli_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="48" lean-forward="true" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/logs/2019-03-01.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="-19133">
+          <caret line="691" column="89" lean-forward="false" selection-start-line="691" selection-start-column="77" selection-end-line="691" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unitl/request.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="19" column="34" lean-forward="true" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/LocalElement.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="178" column="57" lean-forward="true" selection-start-line="178" selection-start-column="57" selection-end-line="178" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Case/test_untiltest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-          <folding />
+        <state relative-caret-position="399">
+          <caret line="21" column="12" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/base/findelment.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="28" lean-forward="false" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="28" />
+        <state relative-caret-position="465">
+          <caret line="69" column="24" lean-forward="true" selection-start-line="69" selection-start-column="24" selection-end-line="69" selection-end-column="24" />
           <folding>
             <element signature="e#0#34#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/unitl/shuju.py">
+    <entry file="file://$PROJECT_DIR$/Handle/erp_chufang_guanli_handle.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state relative-caret-position="228">
+          <caret line="12" column="52" lean-forward="true" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/unitl/Connectdb.py">
+    <entry file="file://$PROJECT_DIR$/base/basemethod.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="38" lean-forward="false" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+        <state relative-caret-position="38">
+          <caret line="2" column="20" lean-forward="true" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/business/erp_process_business.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="536">
+          <caret line="266" column="19" lean-forward="true" selection-start-line="266" selection-start-column="19" selection-end-line="266" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#54#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -6,7 +6,7 @@ class erp_requests():
     def __init__(self):
         self.rr=Readini('D:\po_owens_write\config\example.ini','res')
         self.headers = {
-        "Authorization":"Bearer 248cLsXsRfoBKLdDYdmhqknULYJVFjzU6jdbOvlytV9JMNQoCCRP5VjefCP2CpqIgLmnW8TTcaxUTWkqIJB4H1fyoOJ_3BytRGBljMM8hiCc6qjYON68gtgeZvdGeYXyEvQWci_WIsvpZTgoOL43J2Ip-IR2hsPsyFNrhU4QTetM81w0hm1pNhncAUuUAz3buEnODv1Dnt153Emwugcl1nY0-h0ux2h1Q5IWaoIKZripO_ijJnfsJV9Nbki4d4UKs1gwg_BmKqME_DbO45RPWmObioCbalAGMi1jmZaav2yS0IBFFDzBYZ_on-eFb5Bo"}
+        "Authorization":"Bearer QO8ZTQawAdOO5gv8tAoI3hLMNqNzkDg1RB0Hn5m8vQJqJSHDq71bw1u8EyKq5CuBGyQgzYrRClIPvC8fSfp_n7oMnt72jEcDuXnFD_7O2222wqzfBq1gaBxUZTxeBqwurbtPMqDETCGom7SnTOp9GdtTBGot7tBMLI_aYSaES_HqzphCinZmmTbt-vhPJe8v02Xd2aksBeC6M-Mun51C9D8tprnYyU2BU-PYEyJK23U_6XGYdygoBUo05RbT7P99pPki1UeK80N2GFsz3T_yCp6T0exv7jgHtYvFtaQwx7oid-nl-GFUC9BKjYstCjzK"}
     def send_post(self,url,data,header):
         res=requests.post(url=url,data=data,headers=header)
         data='Data[0].TreatmentAdviseId'

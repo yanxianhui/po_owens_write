@@ -19,11 +19,12 @@ class Login_test(unittest.TestCase):
 
     def setUp(self):
         #self.driver.refresh()-------
-        option = webdriver.ChromeOptions()
-        option.add_argument("headless")
-        self.driver = webdriver.Chrome(chrome_options=option)
-        #self.driver = webdriver.Chrome('C:\\Users\yanxianhuiclearbos\PycharmProjects\drivers\chromedriver.exe')
-        self.driver.get('http://106.14.117.240:8080/Clearsite2/index/main.do')
+        # option = webdriver.ChromeOptions()
+        # option.add_argument("headless")
+        # self.driver = webdriver.Chrome(chrome_options=option)
+        self.driver = webdriver.Chrome('C:\\Users\yanxianhuiclearbos\PycharmProjects\drivers\chromedriver.exe')
+        self.driver.implicitly_wait(10)
+        self.driver.get('http://106.14.117.240:8080/Clearsite/index/main.do')
         self.driver.maximize_window()
         self.login =new_bussiness(self.driver)
 

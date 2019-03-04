@@ -11,3 +11,6 @@ class erp_sheji_genjin_handle():
     #设计跟进界面点击分配确认
     def click_sheji_genjin_fenpei_queren_button(self):
         self.p.get_shejigenjin_fenpei_queren_button().click()
+    #设计跟进界面点击处方
+    def click_sheji_genjin_chufang_button(self):
+        self.p.get_shejigenjin_chufang_button().click()

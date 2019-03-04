@@ -12,3 +12,9 @@ class erp_sheji_genjin_page():
     def get_shejigenjin_fenpei_queren_button(self):
         return self.f.get_element('fenpei_queren')
 
+    #获取设计跟进界面处方button
+    def get_shejigenjin_chufang_button(self):
+        return self.f.get_element('chufang_button')
+
+
+

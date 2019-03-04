@@ -3,7 +3,7 @@ import pymssql
 class linkDB():
     def linkdb(self,sql):
         # 数据库远程连接
-        conn = pymssql.connect(host="106.14.117.240", user="Gtooth", password="E@ClearBos!@#$2017?", database="DentalDB_20190130", charset="utf8")
+        conn = pymssql.connect(host='106.14.117.240', user="Gtooth", password="E@ClearBos!@#$2017?", database="DentalDB_20190130", charset="utf8")
         # 使用cursor()方法获取操作游标
         cursor = conn.cursor()
         # 查询语句
