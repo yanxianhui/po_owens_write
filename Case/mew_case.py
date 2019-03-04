@@ -2,7 +2,7 @@ from selenium import webdriver
 from business.new_doctor_case_business import new_bussiness
 import unittest
 import time,os
-
+from base.configure import Configure
 class Login_test(unittest.TestCase):
     # def setUp(self):
     #     driver=webdriver.Chrome()
@@ -24,7 +24,8 @@ class Login_test(unittest.TestCase):
         # self.driver = webdriver.Chrome(chrome_options=option)
         self.driver = webdriver.Chrome('C:\\Users\yanxianhuiclearbos\PycharmProjects\drivers\chromedriver.exe')
         self.driver.implicitly_wait(10)
-        self.driver.get('http://106.14.117.240:8080/Clearsite/index/main.do')
+        self.driver.get(Configure.doctor_url)
+        #self.driver.get('http://106.14.117.240:8080/Clearsite/index/main.do')
         self.driver.maximize_window()
         self.login =new_bussiness(self.driver)
 

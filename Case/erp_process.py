@@ -2,7 +2,7 @@ from selenium import webdriver
 from business.erp_process_business import erp_login_business
 import unittest
 import time,os
-
+from base.configure import Configure
 class Erp_login(unittest.TestCase):
     # def setUp(self):
     #     driver=webdriver.Chrome()
@@ -14,7 +14,8 @@ class Erp_login(unittest.TestCase):
         # option = webdriver.ChromeOptions()
         # option.add_argument("headless")
         # cls.driver=webdriver.Chrome(chrome_options=option)
-        cls.driver.get('http://www.clearbos.cn:81/new/#/')
+        cls.driver.get(Configure.erp_url)
+        #cls.driver.get('http://www.clearbos.cn:81/new/#/')
         cls.driver.maximize_window()
 
     def setUp(self):

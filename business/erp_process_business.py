@@ -21,6 +21,7 @@ from Handle.erp_moni_design_handel import erp_moni_design_handle
 from Handle.erp_design_quality_handle import erp_design_quality_handle
 from Handle.erp_chufang_guanli_handle import erp_chufangguanli_handle
 from base.basemethod import base_method
+from base.configure import Configure
 from unitl.request import erp_requests
 import time
 from unitl.read_ini import Readini
@@ -53,6 +54,7 @@ class erp_login_business():
             self.h_paiya=erp_moni_design_handle(driver)
             self.h_shejizhijian=erp_design_quality_handle(driver)
             self.h_chakangenduo=erp_chufangguanli_handle(driver)
+            self.config=Configure()
         #登录erp
         def erp_login(self,account,password):
             self.h_l.send_erp_login_account(account)
@@ -156,7 +158,8 @@ class erp_login_business():
             time.sleep(2)
             nun=self.h_tishi.get_tishi_xinxi_text('RO')
             #caseno=self.h_tishi.get_tishi_xinxi_text('caseno')
-            dae="E:/clearbos/TestServer/PatientFiles/201901240002/Data2/m201901240002.cbm"
+            #dae="E:/clearbos/TestServer/PatientFiles/201901240002/Data2/m201901240002.cbm"
+            dae=self.config.cbm_path
             print(dae)
             print(nun)
             data={
@@ -245,7 +248,7 @@ class erp_login_business():
             time.sleep(1)
             self.h_genjin.click_sheji_genjin_chufang_button()
             time.sleep(1)
-            #处方管理界面
+            #处方当前管理界面
             self.base.get_dangqian_chaungk_handle()
             print('处方管理',self.base.get_dangqian_chaungk_handle())
             time.sleep(1)
@@ -274,11 +277,16 @@ class erp_login_business():
             time.sleep(1)
             self.base.get_changkou_canshu_handle(0)
             time.sleep(1)
-            if 'http://www.clearbos.cn:81/new/#/prescriptionManagement?' in url_chufangguanli and  'http://106.14.117.240:8080/Clearsite/' in \
-                    url_chakangenduo and  'http://www.clearbos.cn:81/new//clinicalApp.html?' in url_lc_shuoming:
+            if self.config.test_chufangguanli_url in url_chufangguanli and self.config.test_chakangenduo_url in \
+                    url_chakangenduo and  self.config.test_linchuang_url in url_lc_shuoming:
                 return True
             else:
                 return False
+            # if 'http://www.clearbos.cn:81/new/#/prescriptionManagement?' in url_chufangguanli and  'http://106.14.117.240:8080/Clearsite/' in \
+            #         url_chakangenduo and  'http://www.clearbos.cn:81/new//clinicalApp.html?' in url_lc_shuoming:
+            #     return True
+            # else:
+            #     return False
             # if  self.r.tianjia_chufang(datat)==200 or '200':
             #     return True
             # else:
@@ -300,7 +308,8 @@ class erp_login_business():
             do = self.h_tishi.get_tishi_xinxi_text('DO_num')
             data = {
                  "DesignBillNo": "%s"%do,
-                 "UploadFilePath": "E:/clearbos/TestServer/PatientFiles/201901240002/Data2/m201901240002.cbm"
+                 #"UploadFilePath": "E:/clearbos/TestServer/PatientFiles/201901240002/Data2/m201901240002.cbm"
+                "UploadFilePath": self.config.cbm_path
             }
             print(self.r.upload_cbm(data))
             time.sleep(1)
@@ -335,7 +344,8 @@ class erp_login_business():
             data = {
                 "DesignBillNo": "%s" %do,
                 "PrescriptionId": "%s"%value,
-               "UploadFilePath": "E:/clearbos/TestServer/PatientFiles/201901240002/Data2/s201901240002DE0001.cbs"
+              # "UploadFilePath": "E:/clearbos/TestServer/PatientFiles/201901240002/Data2/s201901240002DE0001.cbs"
+                "UploadFilePath": self.config.cbs_path
             }
             print(self.r.upload_cbs(data))
             time.sleep(1)
