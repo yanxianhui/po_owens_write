@@ -61,6 +61,7 @@ class erp_login_business():
             self.h_l.send_erp_login_password(password)
             self.h_l.click_erp_login_button()
             time.sleep(1)
+            self.r.write_token()
             if self.h_tishi.get_tishi_xinxi_text('success_tishi') == '登录成功!':
                 return True
             else:

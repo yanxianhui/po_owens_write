@@ -2,14 +2,34 @@ import requests
 from unitl.read_ini import Readini
 from jsonpath_rw import parse
 import json
+from unitl.read_write_json import Readjson
 from base.configure import Configure
 class erp_requests():
     def __init__(self):
         self.rr=Readini('D:\po_owens_write\config\example.ini','res')
         self.config=Configure()
-        self.headers=Configure().headers
+        #self.headers=Configure().headers
+        self.headers=Readjson('../data/token.json').read_value('coid')
         #self.headers = {
         #"Authorization":"Bearer Oz_by0UQWiSE4LHaBeihZZMMyE7qX3vPdtk_3zBrNIVdrbdb5Um6Jxmpt1FCP4gOOSyJCwY9iFPltNA6CI_FHjuGvz48wnkvZq5a_0NfrfaTZytkhUg4RSdKE11uQxUBo8MjwExcMukLti91eXrL2Ynau1qADIbKWyw_wR5Bs-E7zKNKwUn3052p4OFdNsXi0XNXozOqQNKfmVSD44nje3Zgbx8ldnOyft8rqi-6P4RBE89ysTfDkDxCuqSdw742WJx70GficjgISt64kyB2xby4Q7bDHrDFB-4OfvL0ewkSTmBVfjG5PsFPK7hLtWfA"}
+    #写token
+    def write_token(self):
+        url=self.config.api_test+'/api/auth/login/signin'
+        data={
+            "userAccount": "15890158362",
+            "userPassword": "123456"
+        }
+        res=requests.post(url,data)
+        print(res.json())
+        #ope=json.loads(res)
+        print(res.json()['Data']['AccessToken'])
+        cookid={
+            'coid': {
+                "Authorization": "Bearer %s" % (res.json()['Data']['AccessToken'])
+            }
+        }
+        self.json = Readjson()
+        self.json.write_json(cookid)
     def send_post(self,url,data,header):
         res=requests.post(url=url,data=data,headers=header)
         data='Data[0].TreatmentAdviseId'
@@ -114,6 +134,7 @@ class erp_requests():
 
 if __name__=="__main__":
     ope = erp_requests()
+    ope.write_token()
     # data = {
     #         "DemandBillNo": "RO20190116002601",
     #         #"DesignBillNo": "DO20190116002601",

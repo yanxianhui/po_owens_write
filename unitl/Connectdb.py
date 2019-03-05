@@ -10,18 +10,37 @@ class linkDB():
         #sql = "select*from Area where AreaCode=110000"
         try:
             cursor.execute(sql)  # 游标
-            result = cursor.fetchall()  # 查询
-            print(result)
+            #以字典格式返回
+            coloumns = [row[0] for row in cursor.description]
+            result = [[str(item) for item in row] for row in cursor.fetchall()]
+            return [dict(zip(coloumns, row)) for row in result]
+            #以数组格式返回
+            # result = cursor.fetchall()  # 查询
+            # print(result)
+            # return result
         except:
             print("连接数据库报错了！")
         # 关闭数据库连接
         conn.close()
 
 
+
 if __name__ == '__main__':
     ope=linkDB()
     #ope.linkdb('select*from Area where AreaCode=110000')
-    ope.linkdb('select*from  CaseDemandOrder where CaseNo=201812290028')
+    #--查询需求模型
+    ape=ope.linkdb('select*from CaseDemandOrder where CaseNo=201903050003')
+    print(ape)
+    if 'GS201903050003' in ape:
+        print('njihao')
+    else:
+        print('sssssss')
+    #print(ape[5])
+    #--查询主病例流程
+    # ope.linkdb('select*from CaseMainInfo where CaseNo=201903050003')
+    #
+    # #--查询收货模型
+    # ope.linkdb('select *from CaseModelReceive where ModelBillNo=GS201903050003')
 
 
 
