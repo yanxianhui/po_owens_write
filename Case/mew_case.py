@@ -1,8 +1,9 @@
 from selenium import webdriver
 from business.new_doctor_case_business import new_bussiness
 import unittest
-import time,os
+import time,os,sys
 from base.configure import Configure
+from base.basemethod import base_method
 class Login_test(unittest.TestCase):
     # def setUp(self):
     #     driver=webdriver.Chrome()
@@ -22,7 +23,9 @@ class Login_test(unittest.TestCase):
         # option = webdriver.ChromeOptions()
         # option.add_argument("headless")
         # self.driver = webdriver.Chrome(chrome_options=option)
-        self.driver = webdriver.Chrome('C:\\Users\yanxianhuiclearbos\PycharmProjects\drivers\chromedriver.exe')
+        #self.driver = webdriver.Chrome()
+        ope=base_method(self)
+        self.driver=ope.select_Different_Browser(Configure.Browser)
         self.driver.implicitly_wait(10)
         self.driver.get(Configure.doctor_url)
         #self.driver.get('http://106.14.117.240:8080/Clearsite/index/main.do')
@@ -33,14 +36,15 @@ class Login_test(unittest.TestCase):
     def tearDown(self):
         time.sleep(2)
         self.driver.close()
+        self.driver.quit()
 
         # if sys.exc_info()[0]:
-        # for method_name, error in self._outcome.errors:
-        #     if error:
-        #         case_name = self._testMethodName
-        #         file_path = os.path.join(os.getcwd() + "/report/" + case_name + ".png")
-        #         self.driver.save_screenshot(file_path)
-                # print("这个是case的后置调键1")
+        #     for method_name, error in self._outcome.errors:
+        #         if error:
+        #             case_name = self._testMethodName
+        #             file_path = os.path.join(os.getcwd() + "/report/" + case_name + ".png")
+        #             self.driver.save_screenshot(file_path)
+                    # print("这个是case的后置调键1")
 
     # @classmethod
     # def tearDownClass(cls):

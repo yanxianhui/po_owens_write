@@ -30,11 +30,11 @@ if __name__ == '__main__':
     #ope.linkdb('select*from Area where AreaCode=110000')
     #--查询需求模型
     ape=ope.linkdb('select*from CaseDemandOrder where CaseNo=201903050003')
-    print(ape)
-    if 'GS201903050003' in ape:
-        print('njihao')
+    print(ape[0]['ModelBillNo'])
+    if 'GS201903050003' == ape[0]['ModelBillNo']:
+        print('success')
     else:
-        print('sssssss')
+        print('false')
     #print(ape[5])
     #--查询主病例流程
     # ope.linkdb('select*from CaseMainInfo where CaseNo=201903050003')

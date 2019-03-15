@@ -1,4 +1,4 @@
-
+from selenium import webdriver
 
 class base_method():
     def __init__(self,driver):
@@ -23,3 +23,15 @@ class base_method():
         print(handles)
         self.driver.switch_to.window(handles[aaa])  # 切换到第二个窗口的句柄
         print(self.driver.current_window_handle)
+
+    #选择不同的浏览器
+    def select_Different_Browser(self,info):
+        if info=='Chrome':
+            return webdriver.Chrome()
+        elif info=='Firefox':
+            return webdriver.Firefox()
+        elif info=='Ie':
+            return webdriver.Ie()
+        else:
+            return webdriver.Edge()
+

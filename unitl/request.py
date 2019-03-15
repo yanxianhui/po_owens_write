@@ -20,8 +20,6 @@ class erp_requests():
             "userPassword": "123456"
         }
         res=requests.post(url,data)
-        print(res.json())
-        #ope=json.loads(res)
         print(res.json()['Data']['AccessToken'])
         cookid={
             'coid': {

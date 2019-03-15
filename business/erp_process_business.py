@@ -321,7 +321,7 @@ class erp_login_business():
             if self.h_tishi.get_tishi_xinxi_text('success_tishi') == '操作成功!':
                 return True
             else:
-                print(self.h_tishi.get_tishi_xinxi_text('error_tishi'))
+                print(self.h_tishi.get_tishi_xinxi_text('success_tishi'))
                 return False
         #模拟排牙
         def moni_design(self):
@@ -357,7 +357,7 @@ class erp_login_business():
             if self.h_tishi.get_tishi_xinxi_text('success_tishi') == '操作成功!':
                 return True
             else:
-                print(self.h_tishi.get_tishi_xinxi_text('error_tishi'))
+                print(self.h_tishi.get_tishi_xinxi_text('success_tishi'))
                 return False
 
         #设计质检
@@ -377,7 +377,7 @@ class erp_login_business():
             if self.h_tishi.get_tishi_xinxi_text('success_tishi') == '操作成功!':
                 return True
             else:
-                print(self.h_tishi.get_tishi_xinxi_text('error_tishi'))
+                print(self.h_tishi.get_tishi_xinxi_text('success_tishi'))
                 return False
         #下生产订单
         def Place_production_orders(self):
@@ -416,7 +416,7 @@ class erp_login_business():
             if self.h_tishi.get_tishi_xinxi_text('success_tishi')=='操作成功!':
                 return True
             else:
-                print(self.h_tishi.get_tishi_xinxi_text('error_tishi'))
+                print(self.h_tishi.get_tishi_xinxi_text('success_tishi'))
                 return False
         #生产调度
         def product_schedu(self):
@@ -438,7 +438,7 @@ class erp_login_business():
             if self.h_tishi.get_tishi_xinxi_text('success_tishi') == '排产成功':
                 return True
             else:
-                print(self.h_tishi.get_tishi_xinxi_text('error_tishi'))
+                print(self.h_tishi.get_tishi_xinxi_text('success_tishi'))
                 return False
         #模型打印
         def model_print(self):
@@ -460,7 +460,7 @@ class erp_login_business():
             if self.h_tishi.get_tishi_xinxi_text('success_tishi') == '操作成功':
                 return True
             else:
-                print(self.h_tishi.get_tishi_xinxi_text('error_tishi'))
+                print(self.h_tishi.get_tishi_xinxi_text('success_tishi'))
                 return False
         #产品成型
         def Product_moldle(self):
@@ -478,7 +478,7 @@ class erp_login_business():
             if self.h_tishi.get_tishi_xinxi_text('success_tishi') == '操作成功':
                 return True
             else:
-                print(self.h_tishi.get_tishi_xinxi_text('error_tishi'))
+                print(self.h_tishi.get_tishi_xinxi_text('success_tishi'))
                 return False
         #生产质检
         def production_quality(self):
@@ -491,14 +491,16 @@ class erp_login_business():
             time.sleep(1)
             self.h_search.click_search_button()
             time.sleep(1)
-            self.h_zijian.click_baozhuang_button()
-            time.sleep(2)
+            self.h_zijian.click_shengc_zhijian_button()
+            time.sleep(1)
+            self.h_zijian.click_baozhuangzhijian_button()
+            time.sleep(1)
             self.h_zijian.click_zhijian_ok_button()
             time.sleep(1)
             if self.h_tishi.get_tishi_xinxi_text('success_tishi') == '操作成功!':
                 return True
             else:
-                print(self.h_tishi.get_tishi_xinxi_text('error_tishi'))
+                print(self.h_tishi.get_tishi_xinxi_text('success_tishi'))
                 return False
         #成品包装
         def product_baozhuang(self):
@@ -516,7 +518,7 @@ class erp_login_business():
             if self.h_tishi.get_tishi_xinxi_text('success_tishi') == '操作成功':
                 return True
             else:
-                print(self.h_tishi.get_tishi_xinxi_text('error_tishi'))
+                print(self.h_tishi.get_tishi_xinxi_text('success_tishi'))
                 return False
         #发货确认
         def fahuo_confirma(self):
@@ -536,7 +538,7 @@ class erp_login_business():
             if self.h_tishi.get_tishi_xinxi_text('success_tishi') == '确认成功':
                 return True
             else:
-                print(self.h_tishi.get_tishi_xinxi_text('error_tishi'))
+                print(self.h_tishi.get_tishi_xinxi_text('success_tishi'))
                 return False
         #发货列表
         def fahuo_list(self):
@@ -560,7 +562,7 @@ class erp_login_business():
             if self.h_tishi.get_tishi_xinxi_text('success_tishi') == '发货成功':
                 return True
             else:
-                print(self.h_tishi.get_tishi_xinxi_text('error_tishi'))
+                print(self.h_tishi.get_tishi_xinxi_text('success_tishi'))
                 return False
 
 

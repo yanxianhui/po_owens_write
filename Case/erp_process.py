@@ -3,6 +3,7 @@ from business.erp_process_business import erp_login_business
 import unittest
 import time,os
 from base.configure import Configure
+from base.basemethod import base_method
 class Erp_login(unittest.TestCase):
     # def setUp(self):
     #     driver=webdriver.Chrome()
@@ -10,7 +11,10 @@ class Erp_login(unittest.TestCase):
     #     driver.get('http://www.clearbos.cn/test/#/')
     @classmethod
     def setUpClass(cls):
-        cls.driver = webdriver.Chrome('C:\\Users\yanxianhuiclearbos\PycharmProjects\drivers\chromedriver.exe')
+        ope = base_method(cls)
+        #cls.driver = webdriver.Chrome()
+        cls.driver =ope.select_Different_Browser(Configure.Browser)
+        cls.driver.implicitly_wait(10)
         # option = webdriver.ChromeOptions()
         # option.add_argument("headless")
         # cls.driver=webdriver.Chrome(chrome_options=option)
@@ -128,7 +132,7 @@ if __name__=='__main__':
     suite.addTest(Erp_login('test_pipei_moxing_g'))
     suite.addTest(Erp_login('test_new_erp_case_h'))
     suite.addTest(Erp_login('test_new_erp_case_i'))
-    suite.addTest(Erp_login('test_pipei_moxing_g'))
+    suite.addTest(Erp_login('test_pipei_moxing_j'))
     suite.addTest(Erp_login('test_new_erp_case_k'))
     suite.addTest(Erp_login('test_new_erp_case_l'))
     suite.addTest(Erp_login('test_new_erp_case_m'))

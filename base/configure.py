@@ -23,7 +23,8 @@ class Configure():
     headers = {
         "Authorization": "Bearer QO8ZTQawAdOO5gv8tAoI3hLMNqNzkDg1RB0Hn5m8vQJqJSHDq71bw1u8EyKq5CuBGyQgzYrRClIPvC8fSfp_n7oMnt72jEcDuXnFD_7O2222wqzfBq1gaBxUZTxeBqwurbtPMqDETCGom7SnTOp9GdtTBGot7tBMLI_aYSaES_HqzphCinZmmTbt-vhPJe8v02Xd2aksBeC6M-Mun51C9D8tprnYyU2BU-PYEyJK23U_6XGYdygoBUo05RbT7P99pPki1UeK80N2GFsz3T_yCp6T0exv7jgHtYvFtaQwx7oid-nl-GFUC9BKjYstCjzK"}
 
-
+    #浏览器
+    Browser='Chrome'
 
 
 
@@ -46,8 +47,8 @@ class Configure():
     # # 测试网token
     # headers = {
     #     "Authorization": "Bearer eYYXNX72V8YWnYdS2Ci-o-P4x7cUzEqvijN8FNav3o_G4NilKVz8zwnZF_xZ2Ww9PEdCVYCBwbscoK_UYyhSRCy-mIkgR0Bhn6wWYlD5XaMTD-EsuJd4fDTELzjc7D3RXNDWo2uJjlFGflkSQ_HqpVVHtvKpYpHx6FSwz8TlgD3gWQ1zT7XXcEFw26njRfA0jtUlUmgy-PDNqz0fUJNa3eac9PDLDMkz9M5r-XxEoij9PWypuTO6Ni0DIsXheqfQ7Q1ooadkOsX4rJ2-oQmOo-AAYvoMomb92PQvqsFBP7d_KjoJ6kMedKMJd-NSRMaU"}
-
-
+    #
+    #
 
 
 

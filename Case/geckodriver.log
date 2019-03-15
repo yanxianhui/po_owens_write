@@ -1,0 +1,376 @@
+1552017195339	geckodriver	INFO	geckodriver 0.21.0
+1552017195352	geckodriver	INFO	Listening on 127.0.0.1:62169
+1552017198347	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\YANXIA~1\\AppData\\Local\\Temp\\rust_mozprofile.OfCo6KBjJfP3"
+Unable to read VR Path Registry from C:\Users\yanxianhuiclearbos\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\yanxianhuiclearbos\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\yanxianhuiclearbos\AppData\Local\openvr\openvrpaths.vrpath
+1552017203608	Marionette	INFO	Listening on port 62179
+Unable to read VR Path Registry from C:\Users\yanxianhuiclearbos\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\yanxianhuiclearbos\AppData\Local\openvr\openvrpaths.vrpath
+1552017204088	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://106.14.117.240:8080/Clearsite/index/main.do, line 62: ReferenceError: event is not defined
+JavaScript error: http://106.14.117.240:8080/Clearsite/static/js/index.js?ver=1552017197297, line 267: ReferenceError: event is not defined
+JavaScript error: http://106.14.117.240:8080/Clearsite/static/js/index.js?ver=1552017197297, line 267: ReferenceError: event is not defined
+JavaScript error: http://106.14.117.240:8080/Clearsite/static/js/index.js?ver=1552017197297, line 267: ReferenceError: event is not defined
+[Child 19132, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 19132, C[Parent 17128, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 20040, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Chil[Parent 17128, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7012, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Chi*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+[GPU 
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1552017282725	geckodriver	INFO	geckodriver 0.21.0
+1552017282737	geckodriver	INFO	Listening on 127.0.0.1:62333
+1552017285752	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\YANXIA~1\\AppData\\Local\\Temp\\rust_mozprofile.6sLYShYcC2uq"
+Unable to read VR Path Registry from C:\Users\yanxianhuiclearbos\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\yanxianhuiclearbos\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\yanxianhuiclearbos\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\yanxianhuiclearbos\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\yanxianhuiclearbos\AppData\Local\openvr\openvrpaths.vrpath
+1552017289067	Marionette	INFO	Listening on port 62344
+1552017289161	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://106.14.117.240:8080/Clearsite/index/main.do, line 62: ReferenceError: event is not defined
+JavaScript error: http://106.14.117.240:8080/Clearsite/static/js/index.js?ver=1552017281883, line 267: ReferenceError: event is not defined
+JavaScript error: http://106.14.117.240:8080/Clearsite/static/js/index.js?ver=1552017281883, line 267: ReferenceError: event is not defined
+JavaScript error: http://106.14.117.240:8080/Clearsite/static/js/index.js?ver=1552017281883, line 267: ReferenceError: event is not defined
+[Parent 5836, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 18020, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Chi[Parent 5836, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11184, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11184, Chrome_ChildThread] WARNING: pipe error: 109: file[Parent 5836, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2136, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Chi*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+[GPU 
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1552021653009	geckodriver	INFO	geckodriver 0.21.0
+1552021653021	geckodriver	INFO	Listening on 127.0.0.1:51738
+1552021656044	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\YANXIA~1\\AppData\\Local\\Temp\\rust_mozprofile.2DZyfoanZs2y"
+Unable to read VR Path Registry from C:\Users\yanxianhuiclearbos\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\yanxianhuiclearbos\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\yanxianhuiclearbos\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\yanxianhuiclearbos\AppData\Local\openvr\openvrpaths.vrpath
+1552021659070	Marionette	INFO	Listening on port 51749
+Unable to read VR Path Registry from C:\Users\yanxianhuiclearbos\AppData\Local\openvr\openvrpaths.vrpath
+1552021659388	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://106.14.117.240:8080/Clearsite/index/main.do, line 62: ReferenceError: event is not defined
+JavaScript error: http://106.14.117.240:8080/Clearsite/static/js/index.js?ver=1552021651797, line 267: ReferenceError: event is not defined
+JavaScript error: http://106.14.117.240:8080/Clearsite/static/js/index.js?ver=1552021651797, line 267: ReferenceError: event is not defined
+JavaScript error: http://106.14.117.240:8080/Clearsite/static/js/index.js?ver=1552021651797, line 267: ReferenceError: event is not defined
+1552283596776	geckodriver	INFO	geckodriver 0.21.0
+1552283596789	geckodriver	INFO	Listening on 127.0.0.1:54172
+1552283599784	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\YANXIA~1\\AppData\\Local\\Temp\\rust_mozprofile.JAfG8vBtyAmw"
+Unable to read VR Path Registry from C:\Users\yanxianhuiclearbos\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\yanxianhuiclearbos\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\yanxianhuiclearbos\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\yanxianhuiclearbos\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\yanxianhuiclearbos\AppData\Local\openvr\openvrpaths.vrpath
+1552283604251	Marionette	INFO	Listening on port 54180
+1552283604264	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://106.14.117.240:8080/Clearsite/index/main.do, line 62: ReferenceError: event is not defined
+JavaScript error: http://106.14.117.240:8080/Clearsite/static/js/index.js?ver=1552283595720, line 267: ReferenceError: event is not defined
+JavaScript error: http://106.14.117.240:8080/Clearsite/static/js/index.js?ver=1552283595720, line 267: ReferenceError: event is not defined
+JavaScript error: http://106.14.117.240:8080/Clearsite/static/js/index.js?ver=1552283595720, line 267: ReferenceError: event is not defined
+JavaScript error: http://106.14.117.240:8080/Clearsite/index/main.do, line 1: ReferenceError: medicalPicError is not defined
+[Child 9416, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Chi[Parent 9880, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+[G1552283617784	geckodriver	INFO	geckodriver 0.21.0
+1552283617796	geckodriver	INFO	Listening on 127.0.0.1:54222
+1552283620793	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\YANXIA~1\\AppData\\Local\\Temp\\rust_mozprofile.IfyAsOMxnxVU"
+Unable to read VR Path Registry from C:\Users\yanxianhuiclearbos\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\yanxianhuiclearbos\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\yanxianhuiclearbos\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\yanxianhuiclearbos\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\yanxianhuiclearbos\AppData\Local\openvr\openvrpaths.vrpath
+1552283624079	Marionette	INFO	Listening on port 54230
+1552283624182	Marionette	WARN	TLS certificate errors will be ignored for this session
+1552283682831	geckodriver	INFO	geckodriver 0.21.0
+1552283682844	geckodriver	INFO	Listening on 127.0.0.1:54311
+1552283685842	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\YANXIA~1\\AppData\\Local\\Temp\\rust_mozprofile.1rKH9nT42Tld"
+Unable to read VR Path Registry from C:\Users\yanxianhuiclearbos\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\yanxianhuiclearbos\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\yanxianhuiclearbos\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\yanxianhuiclearbos\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\yanxianhuiclearbos\AppData\Local\openvr\openvrpaths.vrpath
+1552283689077	Marionette	INFO	Listening on port 54319
+1552283689135	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 1852, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10360, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10360, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome[Parent 1852, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11680, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Ch*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+[GP
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1552440341640	geckodriver	INFO	geckodriver 0.21.0
+1552440341746	geckodriver	INFO	Listening on 127.0.0.1:53219
+1552440346125	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\YANXIA~1\\AppData\\Local\\Temp\\rust_mozprofile.iVlHRAwXsR2Q"
+Unable to read VR Path Registry from C:\Users\yanxianhuiclearbos\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\yanxianhuiclearbos\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\yanxianhuiclearbos\AppData\Local\openvr\openvrpaths.vrpath
+1552440360730	Marionette	INFO	Listening on port 53234
+[Child 8632, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Ch1552440361143	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\yanxianhuiclearbos\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\yanxianhuiclearbos\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: http://106.14.117.240:8080/Clearsite/index/main.do, line 62: ReferenceError: event is not defined
+JavaScript error: http://106.14.117.240:8080/Clearsite/static/js/index.js?ver=1552440354711, line 267: ReferenceError: event is not defined
+Unable to read VR Path Registry from C:\Users\yanxianhuiclearbos\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: http://106.14.117.240:8080/Clearsite/index/main.do, line 1: ReferenceError: medicalPicError is not defined
+[Parent 6332, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 6332, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8048, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8048, Chrome_Child[Parent 6332, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1552440543422	geckodriver	INFO	geckodriver 0.21.0
+1552440543503	geckodriver	INFO	Listening on 127.0.0.1:53506
+1552440547927	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\YANXIA~1\\AppData\\Local\\Temp\\rust_mozprofile.3S8Bwuwcxhm7"
+Unable to read VR Path Registry from C:\Users\yanxianhuiclearbos\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\yanxianhuiclearbos\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\yanxianhuiclearbos\AppData\Local\openvr\openvrpaths.vrpath
+1552440560410	Marionette	INFO	Listening on port 53522
+1552440560599	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\yanxianhuiclearbos\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\yanxianhuiclearbos\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: http://106.14.117.240:8080/Clearsite/index/main.do, line 62: ReferenceError: event is not defined
+JavaScript error: http://106.14.117.240:8080/Clearsite/static/js/index.js?ver=1552440552885, line 267: ReferenceError: event is not defined
+JavaScript error: http://106.14.117.240:8080/Clearsite/index/main.do, line 1: ReferenceError: medicalPicError is not defined
+[Parent 17204, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 16308, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child[Parent 17204, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 17204, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12408, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 124*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+[GPU
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1552458004043	geckodriver	INFO	geckodriver 0.21.0
+1552458004145	geckodriver	INFO	Listening on 127.0.0.1:57161
+1552458008250	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\YANXIA~1\\AppData\\Local\\Temp\\rust_mozprofile.xQOakWPg1p9r"
+Unable to read VR Path Registry from C:\Users\yanxianhuiclearbos\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\yanxianhuiclearbos\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\yanxianhuiclearbos\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 8700, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6268, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Chil1552458022334	Marionette	INFO	Listening on port 57175
+1552458022635	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\yanxianhuiclearbos\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\yanxianhuiclearbos\AppData\Local\openvr\openvrpaths.vrpath
+1552527331417	geckodriver	INFO	geckodriver 0.21.0
+1552527331451	geckodriver	INFO	Listening on 127.0.0.1:50294
+1552527334511	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\YANXIA~1\\AppData\\Local\\Temp\\rust_mozprofile.JGKMKuoLPA2e"
+Unable to read VR Path Registry from C:\Users\yanxianhuiclearbos\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\yanxianhuiclearbos\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\yanxianhuiclearbos\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\yanxianhuiclearbos\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\yanxianhuiclearbos\AppData\Local\openvr\openvrpaths.vrpath
+1552527340702	Marionette	INFO	Listening on port 50306
+1552527340723	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://106.14.117.240:8080/Clearsite/index/main.do, line 62: ReferenceError: event is not defined
+JavaScript error: http://106.14.117.240:8080/Clearsite/static/js/index.js?ver=1552527335195, line 267: ReferenceError: event is not defined
+JavaScript error: http://106.14.117.240:8080/Clearsite/static/js/index.js?ver=1552527335195, line 267: ReferenceError: event is not defined
+JavaScript error: http://106.14.117.240:8080/Clearsite/index/main.do, line 1: ReferenceError: medicalPicError is not defined
+[Parent 8312, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 8312, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11660, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child *** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+[GPU 1
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1552533632405	geckodriver	INFO	geckodriver 0.21.0
+1552533632442	geckodriver	INFO	Listening on 127.0.0.1:62625
+1552533635559	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\YANXIA~1\\AppData\\Local\\Temp\\rust_mozprofile.8gQcvsjm7kM7"
+Unable to read VR Path Registry from C:\Users\yanxianhuiclearbos\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\yanxianhuiclearbos\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\yanxianhuiclearbos\AppData\Local\openvr\openvrpaths.vrpath
+1552533641727	Marionette	INFO	Listening on port 62638
+Unable to read VR Path Registry from C:\Users\yanxianhuiclearbos\AppData\Local\openvr\openvrpaths.vrpath
+1552533642385	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\yanxianhuiclearbos\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: http://106.14.117.240:8080/Clearsite/index/main.do, line 62: ReferenceError: event is not defined
+JavaScript error: http://106.14.117.240:8080/Clearsite/static/js/index.js?ver=1552533636525, line 267: ReferenceError: event is not defined
+JavaScript error: http://106.14.117.240:8080/Clearsite/static/js/index.js?ver=1552533636525, line 267: ReferenceError: event is not defined
+JavaScript error: http://106.14.117.240:8080/Clearsite/static/js/index.js?ver=1552533636525, line 267: ReferenceError: event is not defined
+JavaScript error: http://106.14.117.240:8080/Clearsite/static/js/index.js?ver=1552533636525, line 267: ReferenceError: event is not defined
+JavaScript error: http://106.14.117.240:8080/Clearsite/index/main.do, line 1: ReferenceError: medicalPicError is not defined
+[Parent 13976, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12832, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12832, Chrome_ChildThread] W[Parent 13976, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 13976, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 17796, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+[GPU 11
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1552533983359	geckodriver	INFO	geckodriver 0.21.0
+1552533983386	geckodriver	INFO	Listening on 127.0.0.1:63262
+1552533986440	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\YANXIA~1\\AppData\\Local\\Temp\\rust_mozprofile.DbtHeQqn4Euv"
+Unable to read VR Path Registry from C:\Users\yanxianhuiclearbos\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\yanxianhuiclearbos\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\yanxianhuiclearbos\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\yanxianhuiclearbos\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\yanxianhuiclearbos\AppData\Local\openvr\openvrpaths.vrpath
+1552533991905	Marionette	INFO	Listening on port 63275
+1552533991921	Marionette	WARN	TLS certificate errors will be ignored for this session
+1552534262875	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\YANXIA~1\\AppData\\Local\\Temp\\rust_mozprofile.BANA4U0Nj7o2"
+Unable to read VR Path Registry from C:\Users\yanxianhuiclearbos\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\yanxianhuiclearbos\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\yanxianhuiclearbos\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\yanxianhuiclearbos\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\yanxianhuiclearbos\AppData\Local\openvr\openvrpaths.vrpath
+1552534268307	Marionette	INFO	Listening on port 63859
+1552534269340	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://106.14.117.240:8080/Clearsite/index/main.do, line 62: ReferenceError: event is not defined
+JavaScript error: http://106.14.117.240:8080/Clearsite/static/js/index.js?ver=1552534263509, line 267: ReferenceError: event is not defined
+JavaScript error: http://106.14.117.240:8080/Clearsite/static/js/index.js?ver=1552534263509, line 267: ReferenceError: event is not defined
+JavaScript error: http://106.14.117.240:8080/Clearsite/static/js/index.js?ver=1552534263509, line 267: ReferenceError: event is not defined
+JavaScript error: http://106.14.117.240:8080/Clearsite/static/js/index.js?ver=1552534263509, line 267: ReferenceError: event is not defined
+JavaScript error: http://106.14.117.240:8080/Clearsite/static/js/index.js?ver=1552534263509, line 267: ReferenceError: event is not defined
+JavaScript error: http://106.14.117.240:8080/Clearsite/index/main.do, line 1: ReferenceError: medicalPicError is not defined
+[Parent 13996, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3048, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3[Parent 13996, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10892, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child [Parent 13996, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11620, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11620, Chro*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+[GPU 
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1552534393049	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\YANXIA~1\\AppData\\Local\\Temp\\rust_mozprofile.zkKCoD0sANfn"
+Unable to read VR Path Registry from C:\Users\yanxianhuiclearbos\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\yanxianhuiclearbos\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\yanxianhuiclearbos\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\yanxianhuiclearbos\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\yanxianhuiclearbos\AppData\Local\openvr\openvrpaths.vrpath
+1552534398882	Marionette	INFO	Listening on port 64179
+1552534399270	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://106.14.117.240:8080/Clearsite/index/main.do, line 62: ReferenceError: event is not defined
+JavaScript error: http://106.14.117.240:8080/Clearsite/static/js/index.js?ver=1552534392977, line 267: ReferenceError: event is not defined
+JavaScript error: http://106.14.117.240:8080/Clearsite/static/js/index.js?ver=1552534392977, line 267: ReferenceError: event is not defined
+JavaScript error: http://106.14.117.240:8080/Clearsite/static/js/index.js?ver=1552534392977, line 267: ReferenceError: event is not defined
+JavaScript error: http://106.14.117.240:8080/Clearsite/static/js/index.js?ver=1552534392977, line 267: ReferenceError: event is not defined
+JavaScript error: http://106.14.117.240:8080/Clearsite/static/js/index.js?ver=1552534392977, line 267: ReferenceError: event is not defined
+JavaScript error: http://106.14.117.240:8080/Clearsite/static/js/index.js?ver=1552534392977, line 267: ReferenceError: event is not defined
+JavaScript error: http://106.14.117.240:8080/Clearsite/index/main.do, line 1: ReferenceError: medicalPicError is not defined
+[Parent 17656, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 18512, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 18512[Parent 17656, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13760, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+[GPU 1
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1552535198782	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\YANXIA~1\\AppData\\Local\\Temp\\rust_mozprofile.J5CcpaL3cBxW"
+Unable to read VR Path Registry from C:\Users\yanxianhuiclearbos\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\yanxianhuiclearbos\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\yanxianhuiclearbos\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\yanxianhuiclearbos\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\yanxianhuiclearbos\AppData\Local\openvr\openvrpaths.vrpath
+1552535206808	Marionette	INFO	Listening on port 49190
+1552535206881	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://106.14.117.240:8080/Clearsite/index/main.do, line 62: ReferenceError: event is not defined
+JavaScript error: http://106.14.117.240:8080/Clearsite/static/js/index.js?ver=1552535199744, line 267: ReferenceError: event is not defined
+JavaScript error: http://106.14.117.240:8080/Clearsite/static/js/index.js?ver=1552535199744, line 267: ReferenceError: event is not defined
+JavaScript error: http://106.14.117.240:8080/Clearsite/static/js/index.js?ver=1552535199744, line 267: ReferenceError: event is not defined
+JavaScript error: http://106.14.117.240:8080/Clearsite/static/js/index.js?ver=1552535199744, line 267: ReferenceError: event is not defined
+JavaScript error: http://106.14.117.240:8080/Clearsite/static/js/index.js?ver=1552535199744, line 267: ReferenceError: event is not defined
+JavaScript error: http://106.14.117.240:8080/Clearsite/static/js/index.js?ver=1552535199744, line 267: ReferenceError: event is not defined
+JavaScript error: http://106.14.117.240:8080/Clearsite/static/js/index.js?ver=1552535199744, line 267: ReferenceError: event is not defined
+JavaScript error: http://106.14.117.240:8080/Clearsite/index/main.do, line 1: ReferenceError: medicalPicError is not defined
+[Parent 18064, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 19268, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 19268, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build[Parent 18064, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 19752, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 19752, Chrome_ChildThread] WARNING: pipe error: 109: file [Parent 18064, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 16228, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 16*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+[GPU 192
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1552535289379	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\YANXIA~1\\AppData\\Local\\Temp\\rust_mozprofile.zflLW1ai0vnK"
+Unable to read VR Path Registry from C:\Users\yanxianhuiclearbos\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\yanxianhuiclearbos\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\yanxianhuiclearbos\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\yanxianhuiclearbos\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\yanxianhuiclearbos\AppData\Local\openvr\openvrpaths.vrpath
+1552535295725	Marionette	INFO	Listening on port 49344
+1552535296084	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://106.14.117.240:8080/Clearsite/index/main.do, line 62: ReferenceError: event is not defined
+JavaScript error: http://106.14.117.240:8080/Clearsite/static/js/index.js?ver=1552535291875, line 267: ReferenceError: event is not defined
+JavaScript error: http://106.14.117.240:8080/Clearsite/static/js/index.js?ver=1552535291875, line 267: ReferenceError: event is not defined
+JavaScript error: http://106.14.117.240:8080/Clearsite/static/js/index.js?ver=1552535291875, line 267: ReferenceError: event is not defined
+JavaScript error: http://106.14.117.240:8080/Clearsite/static/js/index.js?ver=1552535291875, line 267: ReferenceError: event is not defined
+JavaScript error: http://106.14.117.240:8080/Clearsite/static/js/index.js?ver=1552535291875, line 267: ReferenceError: event is not defined
+JavaScript error: http://106.14.117.240:8080/Clearsite/static/js/index.js?ver=1552535291875, line 267: ReferenceError: event is not defined
+JavaScript error: http://106.14.117.240:8080/Clearsite/static/js/index.js?ver=1552535291875, line 267: ReferenceError: event is not defined
+JavaScript error: http://106.14.117.240:8080/Clearsite/static/js/index.js?ver=1552535291875, line 267: ReferenceError: event is not defined
+JavaScript error: http://106.14.117.240:8080/Clearsite/index/main.do, line 1: ReferenceError: medicalPicError is not defined
+[Parent 12956, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 17420, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 17420, Chrome_ChildT[Parent 12956, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 12956, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13168, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13168, Chrome_ChildThread] WARNING: pip*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1552535360820	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\YANXIA~1\\AppData\\Local\\Temp\\rust_mozprofile.EolsxMYeO4GX"
+Unable to read VR Path Registry from C:\Users\yanxianhuiclearbos\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\yanxianhuiclearbos\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\yanxianhuiclearbos\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\yanxianhuiclearbos\AppData\Local\openvr\openvrpaths.vrpath
+1552535367064	Marionette	INFO	Listening on port 49470
+Unable to read VR Path Registry from C:\Users\yanxianhuiclearbos\AppData\Local\openvr\openvrpaths.vrpath
+1552535367493	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://106.14.117.240:8080/Clearsite/index/main.do, line 62: ReferenceError: event is not defined
+JavaScript error: http://106.14.117.240:8080/Clearsite/static/js/index.js?ver=1552535362746, line 267: ReferenceError: event is not defined
+JavaScript error: http://106.14.117.240:8080/Clearsite/static/js/index.js?ver=1552535362746, line 267: ReferenceError: event is not defined
+JavaScript error: http://106.14.117.240:8080/Clearsite/static/js/index.js?ver=1552535362746, line 267: ReferenceError: event is not defined
+JavaScript error: http://106.14.117.240:8080/Clearsite/static/js/index.js?ver=1552535362746, line 267: ReferenceError: event is not defined
+JavaScript error: http://106.14.117.240:8080/Clearsite/static/js/index.js?ver=1552535362746, line 267: ReferenceError: event is not defined
+JavaScript error: http://106.14.117.240:8080/Clearsite/static/js/index.js?ver=1552535362746, line 267: ReferenceError: event is not defined
+JavaScript error: http://106.14.117.240:8080/Clearsite/static/js/index.js?ver=1552535362746, line 267: ReferenceError: event is not defined
+JavaScript error: http://106.14.117.240:8080/Clearsite/static/js/index.js?ver=1552535362746, line 267: ReferenceError: event is not defined
+JavaScript error: http://106.14.117.240:8080/Clearsite/static/js/index.js?ver=1552535362746, line 267: ReferenceError: event is not defined
+JavaScript error: http://106.14.117.240:8080/Clearsite/index/main.do, line 1: ReferenceError: medicalPicError is not defined
+[Chi[Parent 13640, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 20400, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 204*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1552535607102	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\YANXIA~1\\AppData\\Local\\Temp\\rust_mozprofile.aiEfSHJyES6F"
+Unable to read VR Path Registry from C:\Users\yanxianhuiclearbos\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\yanxianhuiclearbos\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\yanxianhuiclearbos\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\yanxianhuiclearbos\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\yanxianhuiclearbos\AppData\Local\openvr\openvrpaths.vrpath
+1552535612956	Marionette	INFO	Listening on port 49981
+1552535613277	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://106.14.117.240:8080/Clearsite/index/main.do, line 62: ReferenceError: event is not defined
+JavaScript error: http://106.14.117.240:8080/Clearsite/static/js/index.js?ver=1552535607167, line 267: ReferenceError: event is not defined
+JavaScript error: http://106.14.117.240:8080/Clearsite/static/js/index.js?ver=1552535607167, line 267: ReferenceError: event is not defined
+JavaScript error: http://106.14.117.240:8080/Clearsite/static/js/index.js?ver=1552535607167, line 267: ReferenceError: event is not defined
+JavaScript error: http://106.14.117.240:8080/Clearsite/static/js/index.js?ver=1552535607167, line 267: ReferenceError: event is not defined
+JavaScript error: http://106.14.117.240:8080/Clearsite/static/js/index.js?ver=1552535607167, line 267: ReferenceError: event is not defined
+JavaScript error: http://106.14.117.240:8080/Clearsite/static/js/index.js?ver=1552535607167, line 267: ReferenceError: event is not defined
+JavaScript error: http://106.14.117.240:8080/Clearsite/static/js/index.js?ver=1552535607167, line 267: ReferenceError: event is not defined
+JavaScript error: http://106.14.117.240:8080/Clearsite/static/js/index.js?ver=1552535607167, line 267: ReferenceError: event is not defined
+JavaScript error: http://106.14.117.240:8080/Clearsite/static/js/index.js?ver=1552535607167, line 267: ReferenceError: event is not defined
+JavaScript error: http://106.14.117.240:8080/Clearsite/index/main.do, line 1: ReferenceError: medicalPicError is not defined
+[Parent 19668, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 20052, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 20052, C[Parent 19668, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 19588, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 19588, Chrome_ChildTh[Parent 19668, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+[GPU 641
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
